@@ -1,0 +1,4 @@
+the api for this weather app is from https://openweathermap.org/current#parameter
+there is currrently no API key in the project so it won't work until the user signs up and 
+gets their own API key and replaces it in the javascript file in the api_key const
+
