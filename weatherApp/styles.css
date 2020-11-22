@@ -24,7 +24,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5rem;
+    padding-top: 4rem;
     
 }
 
@@ -60,18 +60,41 @@ main{
     color: #ffffff;
     font-size: 3rem;
     font-weight: 500;
-    margin-bottom: .75rem;
+    margin-bottom: .1rem;
 }
 
 .location .date{
     color: #ffffff;
     font-size: 1rem;
+    margin-bottom: 1rem;
 }
 
 .current .temp{
     font-size: 4rem;
     color: #ffffff;
     font-weight: 600;
-    text-shadow: 2px 7px rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 7px rgba(0, 0, 0, 1);
+    margin-bottom: 2rem;
     
 }
+
+.current .temp span{
+    font-weight: 300;
+}
+
+.current .weather{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-shadow: 1px 1px rgba(0,0,0,0.6);
+    padding-bottom: .5rem;
+}
+
+.current .hi-lo{
+    color:#ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    text-shadow: 0px 4px rgba(0,0,0,0.6);
+}
+
+
